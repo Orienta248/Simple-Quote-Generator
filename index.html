@@ -8,15 +8,26 @@
     <link rel="stylesheet" type="text/css" href="index.css">
 </head>
 <body>
-    <div class="container">
-            <div class="display">
-                    <h1>Simple Quote Generator</h1>
-                    <h4 id="quoteDisplay">
-                
-                    </h4>
-            </div>
-            <button id= "btn" onclick="newQuote()">New Quote</button>
-    </div>
+    <main>
+        <section>
+                <div class="container">
+                        <div class="display">
+                                <h1>Simple Quote Generator</h1>
+                                <h4 id="quoteDisplay">
+                            
+                                </h4>
+                        </div>
+                        <button id= "btn" onclick="newQuote()">New Quote</button>
+                </div>
+                <footer>
+                    ©
+                        <script>
+                            document.write(new Date().getFullYear())
+                        </script>
+                        Orienta M.C
+                    </footer>
+        </section>
+    </main>
     <script src="index.js"></script>
 </body>
 </html>
