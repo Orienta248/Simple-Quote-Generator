@@ -1,29 +1,20 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Quote Generator</title>
-    <link rel="stylesheet" type="text/css" href="index.css">
+  <meta charset="UTF-8">
+  <title>Simple Quote Generator</title>
+  <link href='https://fonts.googleapis.com/css?family=Playfair+Display:400,400italic,700,700italic' rel='stylesheet' type='text/css'>
+  <link rel="stylesheet" href="./normalize.css">
+  <link rel="stylesheet" href="./style.css">
 </head>
 <body>
-    <main>
-        <section>
-                <div class="container">
-                        <div class="display">
-                                <!-- <h1>Simple Quote Generator</h1> -->
-                                <h2 id="quotes-switcher" value="0">Wisdom is supreme;therefore get wisdom. King Solomon</h2>
-                </div>
-                <footer>
-                    ©
-                        <script>
-                            document.write(new Date().getFullYear())
-                        </script>
-                        Orienta M.C
-                    </footer>
-        </section>
-    </main>
-    <script src="index.js"></script>
+  <div class="container">
+    <div id="quote-box">
+      <p class="quote">You can do anything but not everything</p>
+      <p class="source">David Allen<span class="citation">Making It All Work</span><span class="year">2009</span><span class="category"></span></p>
+    </div>
+    <button id="loadQuote">Show another quote</button>
+  </div>
+  <script src="./script.js"></script>
 </body>
 </html>
