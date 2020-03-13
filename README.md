@@ -1,6 +1,4 @@
-# Random Quote Generator (HTML, CSS, JS)
- _A Pen created at CodePen.io. Original URL: [https://codepen.io/Orienta/pen/jOPrzKo].
+Random Quote Generator 
 
- An example of a Random Quote Generator, built with HTML, CSS, and JS.  Background changes color with each new quote.
+This application displays random programming related quotes. A new quote, along with a color palette, is generated when the user presses a button or every 10 seconds. It was created as a part of the Treehouse Full Stack JavaScript Techdegree.
 
- https://simple-quote-generator.netlify.com

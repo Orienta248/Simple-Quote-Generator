@@ -1,9 +1,9 @@
 // creates an array of objects to store quote related information
 var quotes = [
     {
-        quote: "Wisdom is supreme;therefore get wisdom.Do not forget Understanding",
-        source: "King Solomon",
-        category: "#success"
+        quote: "Every great developer you know got there by solving problems they were unqualified to solve until they actually did it.",
+        source: "Patrick McKenzie",
+        category: "#programming"
     },
     {
         quote: "What one programmer can do in one month, two programmers can do in two months.",
@@ -21,29 +21,29 @@ var quotes = [
         category: "#programming"
     },
     {
-        quote: "No one saves us but ourselves",
-        source: "Buddha",
-        category: "#success"
+        quote: "Without requirements or design, programming is the art of adding bugs to an empty text file.",
+        source: "Louis Srygley",
+        category: "#programming"
     },
     {
-        quote: "I hear and I forget. I see and I remember. I do and I understand.",
-        source: "Confucius",
-        category: "#success"
+        quote: "Java is to JavaScript as ham is to hamster.",
+        source: "Jeremy Keith",
+        category: "#programming"
     },
     {
-        quote: "Success is not final, failure is not fatal: it is the courage to continue that counts.",
-        source: "Winston Churchill",
-        category: "#success"
+        quote: "Most good programmers do programming not because they expect to get paid or get adulation by the public, but because it is fun to program.",
+        source: "Linus Torvolds",
+        category: "#programming"
     },
     {
-        quote: "If a man neglects education, he walks lame to the end of his life.",
-        source: "Plato",
-        category: "#success"
+        quote: "A good programmer is someone who always looks both ways before crossing a one-way street.",
+        source: "Doug Linder",
+        category: "#programming"
     },
     {
-        quote: "God Gives Birth To gods!'-Chris Oyakhilome",
-        source: "Chris Oyakhilome.",
-        category: "#success"
+        quote: "Functions should do one thing. They should do it well. They should do it only.",
+        source: "Robert C. Martin",
+        category: "#programming"
     },
     {
         quote: "Eighty percent of success is showing up.",
@@ -51,14 +51,14 @@ var quotes = [
         category: "#success"
     },
     {
-        quote: "Where progress is desire,change is Inevitable.",
-        source: "Matthew Ashimolowo",
+        quote: "Self-education is, I firmly believe, the only kind of education there is.",
+        source: "Isaac Asimov",
         category: "#learning"
     },
     {
-        quote: "The biggest adventure you can ever take is to live the life of your dreams.",
-        source: "Oprah Winfrey",
-        category: "#success"
+        quote: "Treat your code like poetry and take it to the edge of the bare minimum.",
+        source: "Ilya Dorman",
+        category: "#programming"
     },
     {
         quote: "It's all talk until the code runs.",
@@ -66,9 +66,9 @@ var quotes = [
         category: "#programming"
     },
     {
-        quote: "In teaching you learn,in learning you teach",
-        source: "Kizz Daniel",
-        category: "#learning"
+        quote: "Always code as if the guy who ends up maintaining your code will be a violent psychopath who knows where you live.",
+        source: "John Woods",
+        category: "#programming"
     },
     {
         quote: "It is better to fail in originality that to succeed in imitation.",
@@ -76,8 +76,8 @@ var quotes = [
         category: "#success"
     },
     {
-        quote: "If there is anything that a man can do well, I say let him do it. Give him a chance.",
-        source: "Abraham Lincoln",
+        quote: "I find that the harder I work, the more luck I seem to have.",
+        source: "Thomas Jefferson",
         category: "#success"
     },
     {
@@ -91,8 +91,8 @@ var quotes = [
         category: "#success"
     },
     {
-        quote: "Worry not that no one knows of you; seek to be worth knowing.",
-        source: "Confucius",
+        quote: "Tell me and I forget. Teach me and I remember. Involve me and I learn.",
+        source: "Benjamin Franklin",
         category: "#learning"
     },
     {
@@ -103,11 +103,6 @@ var quotes = [
     {
         quote: "Anything worth doing well is worth doing poorly at first.",
         source: "Ray Congdon",
-        category: "#learning"
-    }
-    {
-        quote: "It only takes time to get better",
-        source: "Orienta M.C",
         category: "#learning"
     }
 ];
